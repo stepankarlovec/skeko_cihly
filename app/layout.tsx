@@ -13,9 +13,25 @@ const robotoSlab = Roboto_Slab({
 });
 
 export const metadata: Metadata = {
-  title: 'Použité cihly Pardubice | Radost z poctivé práce',
-  description: 'Postavte si na zahradě něco s duší. Naše staré cihly v Pardubicích mají příběh. Zažijte ten pocit zadostiučinění z tvrdé práce a vlastního díla.',
-  keywords: 'použité cihly Pardubice, staré cihly, tvoření na zahradě, zahradní gril, cihly s duší, poctivá práce',
+  title: 'Levné staré cihly Pardubice | Materiál s duší pro vaše projekty',
+  description: 'Hledáte poctivé staré cihly v Pardubicích? Nabízíme kvalitní očištěné cihly z bouraček. Ideální na zídky, ploty, vinné sklepy i zahradní grily. Levné a dostupné ihned.',
+  keywords: 'staré cihly Pardubice, levné cihly, bouračkové cihly, retro cihly, lícové zdivo, cihly bazar, Pardubický kraj, Skeko cihly',
+  authors: [{ name: 'Skeko.cz' }],
+  openGraph: {
+    title: 'Levné staré cihly Pardubice – Postavte si sen vlastníma rukama',
+    description: 'Poctivý materiál, který má historii. Staré pálené cihly připravené k odběru v Pardubicích. Skvělá cena, okamžitá dostupnost.',
+    url: 'https://skeko.cz/levne-cihly-pardubice',
+    siteName: 'Cihly s duší Pardubice',
+    locale: 'cs_CZ',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: 'https://skeko.cz/levne-cihly-pardubice',
+  }
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
