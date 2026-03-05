@@ -54,7 +54,7 @@ export default function Home() {
                   <span className="animate-ping absolute inline-flex h-full w-full bg-orange-400 opacity-75"></span>
                   <span className="relative inline-flex h-2 w-2 bg-orange-500"></span>
                 </span>
-                Materiál pro pořádný chlapy
+                Pořádný materiál s duší
               </div>
               <h1 className="text-6xl lg:text-8xl font-serif font-black leading-none mb-8 text-stone-900 uppercase">
                 Léto volá.
@@ -255,7 +255,7 @@ export default function Home() {
                   },
                   {
                     icon: Truck,
-                    text: "Možnost nakládky ještěrkou přímo na váš vozík",
+                    text: "Připraveno k odběru v Rybitví",
                   },
                   {
                     icon: HardHat,
@@ -317,8 +317,8 @@ export default function Home() {
             Nenechte léto protéct mezi prsty
           </h2>
           <p className="text-2xl text-stone-300 mb-12 font-medium">
-            Zásoby starých cihel mizí. Co se zbourá, to se prodá. Zajistěte si
-            materiál pro svůj projekt ještě dnes a o víkendu můžete začít.
+            Zásoby starých cihel mizí. Zajistěte si materiál pro svůj projekt
+            ještě dnes a o víkendu můžete začít.
           </p>
           <a
             href="tel:+420732112998"
@@ -333,25 +333,25 @@ export default function Home() {
       {/* Minimal Footer */}
       <footer className="bg-stone-950 py-12 text-center text-stone-500 font-bold uppercase tracking-widest">
         <p className="mb-4">
-          © {new Date().getFullYear()} Prodej použitých cihel Pardubice.
+          © {new Date().getFullYear()} | Prodej použitých cihel Pardubice.
         </p>
         <p>
           Volat můžete denně:{" "}
           <a
-            href="tel:+420777123456"
+            href="tel:+420732112998"
             className="text-orange-600 hover:text-orange-400 text-xl ml-2"
           >
             +420 732 112 998{" "}
           </a>
         </p>
         <p className="mt-4 opacity-50 text-xs">
-          Partner:{" "}
           <a
             href="https://skeko.cz/levne-cihly-pardubice"
             className="underline hover:text-stone-300"
           >
-            Levné staré cihly Pardubice
+            SK-EKO Pardubice
           </a>
+          Levné staré cihly Pardubice a okolí
         </p>
       </footer>
     </main>
